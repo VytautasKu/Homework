@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apklausa</title>
+</head>
+
+<body>
+    <form method="post" action="adresas i kuri keliaus info">
+       <fieldset>
+           <legend>Jūsų Informacija</legend>
+            Vardas:
+            <input type="text" name="Name"/>
+            <br>
+            Pavardė:
+            <input type="password" name="password"/> <br>
+        </fieldset>
+        
+        <fieldset>
+           
+            <legend>Klausimai</legend>
+            <table>
+                <tr>
+                   <td>Kaip sužinojote apie mus?</td>
+                    <td>
+                        <select name="city">
+                            <option value="Google">Google</option>
+                            <option value="Draugai">Draugai</option>
+                            <option value="Reklama">Reklama</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td>Ar apsilankysite vėl?</td>                    
+                </tr>
+                <tr>
+                    <td>
+                        Taip<input type="radio" name="yes" value="yes">
+                        Ne<input type="radio" name="no" value="no">
+                        Galbūt<input type="radio" name="maybe" value="maybe">
+                    </td>
+                </tr>
+            </table>
+  
+       <br>
+       <table>
+        <tr>
+            <td>Ką manote apie kursą?</td>
+        </tr>
+        <tr>
+            <td>
+              <textarea style="width:auto;height:98px;width:450px;" placeholder="Rašykite viską ką galvojate" name="comment"></textarea>
+            </td>
+        </tr> 
+       </table>
+        <p>Kokia kalba programuoji?</p>
+        <table>
+        <tr>
+            <td>C# <input type="checkbox" name="planguage" value="csharp"></td>
+            <td>Java <input type="checkbox" name="planguage" value="Java"></td>
+            <td>PHP <input type="checkbox" name="planguage" value="PHP"></td>
+        </tr>
+        <tr>
+            <td>HTML <input type="checkbox" name="planguage" value="Hypermarkuptextlanguage"></td>
+            <td>CSS <input type="checkbox" name="planguage"value="CascadingStyleSheets"></td>
+            <td>JavaScript <input type="checkbox" name="planguage" value="Jscript"></td>
+        </tr>
+        <tr>
+             <td>Python <input type="checkbox" name="planguage" value="Pyhton">
+            <td>Ruby <input type="checkbox" name="planguage" value="Ruby">
+        </tr>
+        
+        </table>
+            <button type="submit" name="Siūsti">Siūsti</button>
+        </fieldset>
+   </form>
+</body>
+</html>
