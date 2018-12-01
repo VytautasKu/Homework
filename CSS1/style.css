@@ -1,0 +1,23 @@
+h1{
+    color: deeppink;
+    font-family: monospace;
+    
+}
+
+h2{
+    color: forestgreen;
+    font-family: fantasy;
+}
+
+span{font-style: oblique
+     
+}
+
+.p1{
+    font-family: monospace;
+}
+
+.p2{
+    opacity: 0.5;
+    font-family: monospace;
+}
