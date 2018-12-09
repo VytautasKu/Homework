@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS8</title>
+    <style>
+         h2{
+            margin-left:16px
+        }
+        .regform{
+            width: 600px;
+            margin: 15px;
+            height: 300px;
+            background: #fafa9e;
+            border-radius: 7px;   
+        }
+        .regforhed{
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        .paragraph1{
+            margin-left: 10px;
+            padding-top: 10px;
+            font-size: 15px;
+        }
+        .box1{
+            float: left;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .box2{
+            float:right;
+            margin-right: 25%;
+            width: 250px;     
+        }
+        .inputfield1{
+            width: 100%;
+            height: 27px;
+            border-radius: 4px 4px 4px 4px;       
+        }
+        .inputfield2{
+            width: 100%;
+            height: 27px;
+            border-radius: 4px 4px 4px 4px;
+        }
+        .inputfield3{
+            width: 100%;
+            height: 27px;
+            border-radius: 4px 4px 4px 4px;        
+        }
+        .button1{
+            width: 446px;
+            height: 33px;
+            border-radius: 5px 5px 5px 5px;
+            margin-top: 2%;
+            float: left;
+            margin-left: 10px;
+            background-color: #cccccc;	
+        }
+        .infoform{
+            width: 600px;
+            margin: 15px;
+            height: 200px;
+            background: #b3ffb3;
+            border-radius: 7px;
+        }
+        .infoforhed{
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        table{
+            width: 580px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .tblrw{
+            background: #d9b3ff;
+            font-size: 15px;
+        }
+        .thh1{
+            width: 380px;
+        }
+        table, tr, td{
+            border-collapse: collapse;
+            border: 2px solid black;
+        }   
+    </style>
+</head>
+<body>
+   <h2>Registracija į renginį</h2>
+   <div class="regform">
+   <h3 class="regforhed">Registracijos forma</h3>
+   <p class="paragraph1">Jeigu norite užsiregistruoti į renginį, užpildykite žemiau esančią formą .Žemiau lentelėje galite matyti jau užsiregistravusius dalyvius.</p>
+      <div class="box1">
+        <label>Vardas</label>
+        <br>
+        <br>
+        <br>
+        <label>Pavardė</label>
+        <br>
+        <br>
+        <br>
+        <label>Elektroninis Paštas</label>
+      </div>
+      <div class="box2">
+        <input type="text" class="inputfield1">
+        <br>
+        <br>
+        <input type="text" class="inputfield2">
+        <br>
+        <br>
+        <input type="email" class="inputfield3">
+      </div>
+      <div>
+        <button type="submit" class="button1">Registruoti</button>
+      </div>
+  </div>
+  <div class="infoform">
+     <h3 class="infoforhed">Jau užsiregistravę dalyviai:</h3>
+      <table>
+          <tr class="tblrw">
+              <th class="thh1">Vardas</th>
+              <th class="thh2">Pavardė</th>
+              <th class="thh3">Elektroninis paštas</th>
+          </tr>
+          <tr>
+              <td>Petras</td>
+              <td>Petraitis</td>
+              <td>petraitis@gmail.com</td>
+          </tr>
+          <tr>
+              <td>Jonas</td>
+              <td>Jonaitis</td>
+              <td>jonaitis@gmail.com</td>
+          </tr>
+      </table>
+  </div> 
+</body>
+</html>
+
